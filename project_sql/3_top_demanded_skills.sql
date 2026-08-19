@@ -31,3 +31,28 @@ WHERE job_title_short = 'Data Analyst'
 GROUP BY skills_dim.skills
 ORDER BY postings_count DESC
 LIMIT 5;
+
+/*
+[
+  {
+    "skills": "sql",
+    "postings_count": "92628"
+  },
+  {
+    "skills": "excel",
+    "postings_count": "67031"
+  },
+  {
+    "skills": "python",
+    "postings_count": "57326"
+  },
+  {
+    "skills": "tableau",
+    "postings_count": "46554"
+  },
+  {
+    "skills": "power bi",
+    "postings_count": "39468"
+  }
+]
+*/
