@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc">
+  <title id="title">Most requested skills in high-paying data analyst postings</title>
+  <desc id="desc">Horizontal bar chart of skill frequency across the supplied job postings. SQL appears in eight postings, Python in seven, and Tableau in six.</desc>
+  <style>
+    .title{font:700 24px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#172033}.sub{font:14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#64748b}.label{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#25324a}.tick{font:12px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#64748b}.value{font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#25324a}.grid{stroke:#dbe3ef;stroke-width:1}.track{fill:#eef2f7}.bar{fill:#356ae6}
+  </style>
+  <rect width="1000" height="650" fill="#fff"/>
+  <text x="40" y="45" class="title">Most requested skills in high-paying analyst roles</text>
+  <text x="40" y="70" class="sub">Frequency across the supplied job postings · Top 10 skills</text>
+  <line x1="250" y1="105" x2="250" y2="590" class="grid"/><line x1="525" y1="105" x2="525" y2="590" class="grid"/><line x1="800" y1="105" x2="800" y2="590" class="grid"/>
+  <text x="250" y="96" text-anchor="middle" class="tick">0</text><text x="525" y="96" text-anchor="middle" class="tick">4 postings</text><text x="800" y="96" text-anchor="middle" class="tick">8 postings</text>
+  <text x="40" y="132" class="label">SQL</text><rect x="250" y="113" width="550" height="30" rx="3" class="track"/><rect x="250" y="113" width="550" height="30" rx="3" class="bar"/><text x="820" y="134" class="value">8</text>
+  <text x="40" y="180" class="label">Python</text><rect x="250" y="161" width="550" height="30" rx="3" class="track"/><rect x="250" y="161" width="481" height="30" rx="3" class="bar"/><text x="820" y="182" class="value">7</text>
+  <text x="40" y="228" class="label">Tableau</text><rect x="250" y="209" width="550" height="30" rx="3" class="track"/><rect x="250" y="209" width="413" height="30" rx="3" class="bar"/><text x="820" y="230" class="value">6</text>
+  <text x="40" y="276" class="label">R</text><rect x="250" y="257" width="550" height="30" rx="3" class="track"/><rect x="250" y="257" width="275" height="30" rx="3" class="bar"/><text x="820" y="278" class="value">4</text>
+  <text x="40" y="324" class="label">Excel</text><rect x="250" y="305" width="550" height="30" rx="3" class="track"/><rect x="250" y="305" width="206" height="30" rx="3" class="bar"/><text x="820" y="326" class="value">3</text>
+  <text x="40" y="372" class="label">Pandas</text><rect x="250" y="353" width="550" height="30" rx="3" class="track"/><rect x="250" y="353" width="206" height="30" rx="3" class="bar"/><text x="820" y="374" class="value">3</text>
+  <text x="40" y="420" class="label">Snowflake</text><rect x="250" y="401" width="550" height="30" rx="3" class="track"/><rect x="250" y="401" width="206" height="30" rx="3" class="bar"/><text x="820" y="422" class="value">3</text>
+  <text x="40" y="468" class="label">AWS</text><rect x="250" y="449" width="550" height="30" rx="3" class="track"/><rect x="250" y="449" width="138" height="30" rx="3" class="bar"/><text x="820" y="470" class="value">2</text>
+  <text x="40" y="516" class="label">Azure</text><rect x="250" y="497" width="550" height="30" rx="3" class="track"/><rect x="250" y="497" width="138" height="30" rx="3" class="bar"/><text x="820" y="518" class="value">2</text>
+  <text x="40" y="564" class="label">Power BI</text><rect x="250" y="545" width="550" height="30" rx="3" class="track"/><rect x="250" y="545" width="138" height="30" rx="3" class="bar"/><text x="820" y="566" class="value">2</text>
+  <text x="40" y="620" class="sub">Counts reflect distinct job postings requesting each skill.</text>
+</svg>
